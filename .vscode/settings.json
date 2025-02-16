@@ -1,0 +1,200 @@
+{
+  "files.autoSave": "afterDelay",
+  "files.autoSaveDelay": 2500,
+  "files.exclude": {
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    "**/.DS_Store": true,
+    "**/Thumbs.db": true,
+    "node_modules/":true
+},
+"explorer.compactFolders": false,
+  "workbench.colorTheme": "GitHub Dark Colorblind (Beta)",
+  "workbench.iconTheme": "icons",
+  "workbench.activityBar.location": "top",
+  "window.zoomLevel": 0.5,
+  "errorLens.gutterIconSet": "emoji",
+  "errorLens.statusBarIconsEnabled": true,
+  "errorLens.gutterEmoji": {
+    // Pegar emojis en las cadenas
+    "error": "⛔️",
+    "warning": "⚠️",
+    "info": "📢",
+    "hint": "🔎"
+  },
+  "errorLens.light": {},
+  "errorLens.gutterIconsEnabled": true,
+  "workbench.settings.applyToAllProfiles": ["code-runner.defaultLanguage"],
+  "editor.minimap.enabled": false,
+  "editor.fontFamily": "FiraCode Nerd Font",
+  "editor.fontLigatures": true,
+  "editor.fontSize": 16,
+  "editor.wordWrap": "wordWrapColumn",
+  "editor.wordWrapColumn": 120,
+  "html.format.wrapLineLength": 120,
+  "editor.autoIndent": "full",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "formattingToggle.affects": ["editor.codeActionsOnSave.source.fixAll.eslint", "editor.formatOnPaste","editor.formatOnSave"],
+  // "editor.formatOnPaste": true,
+  // "editor.formatOnSave": true,
+  "editor.formatOnType": false,
+  "explorer.confirmDragAndDrop": false,
+  "cSpell.language": "en,es-ES,es,en-GB",
+  "editor.renderWhitespace": "none",
+  "editor.tabSize": 2,
+  "editor.cursorBlinking": "expand",
+  "editor.cursorStyle": "line-thin",
+  "editor.cursorSmoothCaretAnimation": "on",
+  "editor.snippetSuggestions": "top",
+  "html.format.indentInnerHtml": true,
+  "html.format.wrapAttributes": "auto",
+  // Using the light mode
+  "indentRainbow.indicatorStyle": "light",
+  // we use a simple 1 pixel wide line
+  "indentRainbow.lightIndicatorStyleLineWidth": 2,
+  // the same colors as above but more visible
+  "indentRainbow.colors": ["#2612c8b0", "#190ca6b0", "#0d0685b0", "#000063b0"],
+  "editor.tokenColorCustomizations": {
+    "textMateRules": [
+      {
+        "name": "Control flow",
+        "scope": "keyword.control, keyword.control.flow",
+        "settings": {
+          "fontStyle": "italic bold"
+        }
+      },
+      {
+        "name": "Definitions",
+        "scope": [
+          "entity.name.type.class",
+          "meta.definition.method",
+          "meta.definition.property",
+          "meta.definition.function",
+          "entity.name.section.markdown"
+        ],
+        "settings": {
+          "fontStyle": "bold"
+        }
+      },
+      {
+        "name": "Function/Method Calls and HTML attributes",
+        "scope": [
+          "meta.function-call",
+          "keyword.operator.new.ts",
+          "entity.other.attribute-name.html"
+        ],
+        "settings": {
+          "fontStyle": "italic"
+        }
+      },
+      {
+        "name": "Other",
+        "scope": [
+          "keyword.control.import",
+          "keyword.control.export",
+          "keyword.control.from",
+          "keyword.operator",
+          "meta.type.annotation",
+          "storage"
+        ],
+        "settings": {
+          "fontStyle": ""
+        }
+      }
+    ]
+  },
+  "workbench.colorCustomizations": {
+    "[*]": {
+      "editor.lineHighlightBackground": "#2a2a2a",
+      "editor.selectionBackground": "#2a2a2a",
+      "editor.findMatchBackground": "#2c13ef",
+      "editor.selectionHighlightBackground": "#2a2a2ad5",
+      "editor.background": "#151515",
+      "editor.wordHighlightBackground": "#353535b2",
+      "editor.findMatchForeground": "#ffffff",
+      "editor.findMatchHighlightBackground": "#65656567",
+      "editor.hoverHighlightBackground": "#2d12f72e",
+      "editor.wordHighlightStrongBackground": "#2409f186",
+      "editorGroupHeader.tabsBackground": "#151515",
+      "editorWidget.background": "#151515",
+      "editorWidget.border": "#d6d6d6",
+      "editorWidget.foreground": "#d6d6d6",
+      "editorWidget.resizeBorder": "#d6d6d6",
+      "editorSuggestWidget.background": "#151515",
+      "editorSuggestWidget.border": "#2409f1",
+      "editorInfo.background": "#151515cf",
+      "editorHoverWidget.background": "#151515",
+      "editorHoverWidget.border": "#d6d6d6",
+      "editorHoverWidget.foreground": "#d6d6d6",
+      "tab.inactiveBackground": "#252525",
+      "tab.inactiveForeground": "#898989",
+      "tab.activeBackground": "#3d3d3d",
+      "tab.activeBorder": "#2409f1",
+      "sideBar.background": "#151515",
+      "sideBarSectionHeader.background": "#151515",
+      "activityBar.background": "#151515",
+      "statusBar.background": "#151515",
+      "titleBar.activeBackground": "#151515",
+      "badge.background": "#2409f1",
+      "terminal.background": "#151515",
+      "terminal.foreground": "#00ffff",
+      "panel.background": "#252525",
+      "panelTitle.activeForeground": "#d6d6d6",
+      "panelTitle.activeBorder": "#151515",
+      "panelTitle.inactiveForeground": "#d6d6d6",
+      "panel.border": "#1d1f21",
+      "panelInput.border": "#1d1f21",
+      "panelSection.dropBackground": "#151515",
+      "panelSectionHeader.background": "#151515",
+      "panelSectionHeader.foreground": "#d7dae0",
+      "panelSection.border": "#151515",
+      "panelSectionHeader.border": "#151515",
+      "peekView.border": "#d6d6d6",
+      "peekViewEditor.background": "#151515",
+      "peekViewEditorGutter.background": "#151515",
+      "peekViewEditor.matchHighlightBackground": "#d6d6d68a",
+      "peekViewEditor.matchHighlightBorder": "#d6d6d6",
+      "peekViewResult.background": "#151515",
+      "peekViewResult.fileForeground": "#d6d6d6",
+      "peekViewResult.lineForeground": "#d6d6d6",
+      "peekViewResult.selectionBackground": "#d6d6d6",
+      "peekViewResult.selectionForeground": "#151515",
+      "peekViewTitle.background": "#151515",
+      "peekViewTitleDescription.foreground": "#d6d6d6",
+      "peekViewTitleLabel.foreground": "#d6d6d6",
+      "input.background": "#2D2D2D",
+      "input.border": "#d6d6d6",
+      "input.foreground": "#d6d6d6",
+      "input.placeholderForeground": "#d6d6d6",
+      "focusBorder": "#2409f1",
+      "list.activeSelectionBackground": "#3d3d3d",
+      "list.inactiveSelectionBackground": "#151515",
+      "list.hoverBackground": "#3d3d3d"
+    }
+  },
+  "code-runner.showRunIconInEditorTitleMenu": false,
+  "codesnap.backgroundColor": "#151515",
+  "codesnap.boxShadow": "rgba(1, 0, 0, 0.55) 0px 20px 68px",
+  "codesnap.realLineNumbers": true,
+  "codesnap.transparentBackground": true,
+  "search.exclude": {
+    "**/node_modules": true,
+    "**/bower_components": true,
+    "**/dist": true,
+    "**/coverage": true
+  },
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "javascript.suggest.paths": false,
+  "typescript.preferences.importModuleSpecifier": "non-relative",
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "typescript.referencesCodeLens.enabled": true,
+  "typescript.suggest.paths": false,
+  "eslint.validate": ["javascript", "typescript"],
+  "editor.codeActionsOnSave": {
+        "source.addMissingImports":"always",
+        "source.organizeImports":"always"
+    },
+
+}
